@@ -1,0 +1,79 @@
+.total-delivery-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+  }
+  
+  .total-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .total-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .total-details {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .total-details p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+
+  input[type="text"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .pay-now-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #d4af37;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .pay-now-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .delivery-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .delivery-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .delivery-container input {
+    display: block;
+    width: 80px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; 
+  }

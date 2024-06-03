@@ -1,0 +1,28 @@
+.slideshow-container {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px; 
+  overflow: hidden;
+  padding: 1rem; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  border-radius: 8px; 
+  background-color: #ffaa00
+}
+
+.slide {
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+@media (max-width: 850px) {
+  .slideshow-container {
+    width: 90%; 
+    max-width: 90%;
+    padding: 0.5rem; 
+  }
+}

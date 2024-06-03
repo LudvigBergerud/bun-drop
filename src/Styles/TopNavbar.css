@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+
+body, h1, h2, a {
+    margin: 0;
+    padding: 0;
+    font-family: "Freeman", sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ECEBEB;
+    border-radius: 0px 0px 36px 36px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.6);
+    position: relative;
+    z-index: 1000; 
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-brand h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.navbar-brand h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-links img.user-logo {
+    width: 60px;
+    height: auto;
+}
+
+.navbar-links .user-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    font-size: 40px;
+    transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+    color: #EDDDA2;
+}
+
+.navbar img {
+    width: 100px;
+}
+
+.nav-symbol {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #ECEBEB;
+        z-index: 999;
+        padding: 20px;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .nav-symbol {
+        display: block;
+    }
+}
+

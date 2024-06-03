@@ -1,0 +1,46 @@
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  font-family: "Freeman", sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.menu-item h2 {
+  font-size: xx-large;
+}
+
+.menu-item p {
+  font-size: large;
+}
+
+.menu-item-image {
+  width: 35%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.menu-item-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.menu-item-buttons button {
+  background-color: #EDDDA2;
+  color: rgb(0, 0, 0);
+}
+
+
+.menu-item-buttons button:hover {
+  background: #ffaa00;
+}
