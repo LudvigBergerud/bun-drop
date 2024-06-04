@@ -9,6 +9,10 @@
   margin-bottom: 10px;
 }
 
+.modal-content{
+  overflow-y: hidden;
+}
+
 .modal-content img {
   width: 50%;
   height: auto;
@@ -17,4 +21,6 @@
 
 .order-list{
   overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 300px;
 }

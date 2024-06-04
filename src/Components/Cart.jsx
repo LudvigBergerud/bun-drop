@@ -46,33 +46,35 @@ const Cart = () => {
     <div className="cart-page-container">
       <div className="cart-container">
         <h2>CART</h2>
-        {cartItems.length === 0 ? (
-          <p>Your cart is empty</p>
-        ) : (
-          <ul>
-            {cartItems.map((item) => (
-              <li key={item.productId}>
-                <div className="cart-item-info">
-                  <div className="cart-item-quantity">
-                    <button onClick={() => handleQuantityChange(item.productId, item.quantity - 1)}>-</button>
-                    <input type="number" value={item.quantity} readOnly />
-                    <button onClick={() => handleQuantityChange(item.productId, item.quantity + 1)}>+</button>
-                  </div>
-                  <img src={item.image} alt={item.productName} />
-                  <div className='item-text'>
-                  <span>{item.productName}</span>
-                  <span>{item.price}KR/Item</span>
-                  </div>
-                </div>
-                <button className="cart-item-delete" onClick={() => removeFromCart(item.productId)}>
-                  <div className="delete-icon-background">
-                    <img src="https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/Trashcan2.png?raw=true" alt="Delete" />
-                  </div>
-                </button>
-              </li>
-            ))}
-          </ul>
-        )}
+          <div className="cart-item-container">
+            {cartItems.length === 0 ? (
+              <p>Your cart is empty</p>
+            ) : (
+              <ul>
+                {cartItems.map((item) => (
+                  <li key={item.productId}>
+                    <div className="cart-item-info">
+                      <div className="cart-item-quantity">
+                        <button onClick={() => handleQuantityChange(item.productId, item.quantity - 1)}>-</button>
+                        <input type="number" value={item.quantity} readOnly />
+                        <button onClick={() => handleQuantityChange(item.productId, item.quantity + 1)}>+</button>
+                      </div>
+                      <img src={item.image} alt={item.productName} />
+                      <div className='item-text'>
+                      <span>{item.productName}</span>
+                      <span>{item.price}KR/Item</span>
+                      </div>
+                    </div>
+                    <button className="cart-item-delete" onClick={() => removeFromCart(item.productId)}>
+                      <div className="delete-icon-background">
+                        <img src="https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/Trashcan2.png?raw=true" alt="Delete" />
+                      </div>
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
       </div>
       <Total openPayment={() => setIsPaymentVisible(true)} />
       {isPaymentVisible && (

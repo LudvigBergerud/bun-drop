@@ -17,16 +17,18 @@
 
 
 .menu-sidebar h3 {
+  font-size: 30px;
   margin-bottom: 10px;
 }
 
 .menu-sidebar div {
   margin-bottom: 10px;
   cursor: pointer;
+  font-size: 25px;
 }
 
 .menu-sidebar div:hover{
-  background-color:#ffaa00 ;
+  background-color:#EDDDA2 ;
   border-radius: 6px;
 }
 
@@ -44,7 +46,7 @@
 }
 
 .menu-items p:hover{
-  background-color:#ffaa00 ;
+  background-color:#EDDDA2 ;
   border-radius: 6px;
 }
 

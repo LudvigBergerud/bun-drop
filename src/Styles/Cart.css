@@ -15,8 +15,13 @@
   background-color: #fff;
   max-height: 462px;
   height: auto;
-  overflow-y: auto;
   margin-right: 10px;
+}
+
+.cart-item-container{
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .cart-container h2 {
@@ -84,7 +89,7 @@
 }
 
 .cart-item-quantity button:hover {
-  background-color: #ffaa00; 
+  background-color: #EDDDA2; 
 }
 
 .cart-item-quantity span {
