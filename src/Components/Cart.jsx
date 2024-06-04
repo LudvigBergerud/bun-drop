@@ -66,7 +66,7 @@ const Cart = () => {
                 </div>
                 <button className="cart-item-delete" onClick={() => removeFromCart(item.productId)}>
                   <div className="delete-icon-background">
-                    <img src="./Images/Trashcan2.png" alt="Delete" />
+                    <img src="https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/Trashcan2.png?raw=true" alt="Delete" />
                   </div>
                 </button>
               </li>

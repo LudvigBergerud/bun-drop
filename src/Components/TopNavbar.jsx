@@ -33,7 +33,7 @@ function TopNavbar({ setShowSignIn, onHomeButtonClick, onCartButtonClick, onMenu
     <div className="navbar">
       <div className="navbar-brand" onClick={() => handleLinkClick(onHomeButtonClick)}>
         <div className="navbar-brand-img">
-          <img src="/Images/BundropLogo.png" alt="Bundrop Logo" />
+          <img src="https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/BundropLogo.png?raw=true" alt="Bundrop Logo" />
         </div>
         <div className="navbar-brand-text">
           <h1>BUN</h1>
@@ -46,7 +46,7 @@ function TopNavbar({ setShowSignIn, onHomeButtonClick, onCartButtonClick, onMenu
         <a href="#" onClick={() => handleLinkClick(onMenuButtonClick)}>MENU</a>
         <a href="#" onClick={() => handleLinkClick(onCartButtonClick)}>CART</a>
         <div className="user-container">
-          <img src="/Images/Userlogo.png" alt="User Logo" className="user-logo" onClick={() => handleLinkClick(onUserButtonClick)} />
+          <img src="https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/Userlogo.png?raw=true" alt="User Logo" className="user-logo" onClick={() => handleLinkClick(onUserButtonClick)} />
           {currentUser ? (
             <a href="#" onClick={() => handleLinkClick(onUserButtonClick)}>{currentUser.username}</a>
           ) : (
