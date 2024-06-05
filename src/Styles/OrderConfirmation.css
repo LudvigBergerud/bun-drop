@@ -24,3 +24,9 @@
   overflow-x: hidden;
   max-height: 300px;
 }
+
+@media screen and (max-width: 850px) {
+  .order-confirmation {
+      padding: 20px;
+  }
+}

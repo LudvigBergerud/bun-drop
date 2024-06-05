@@ -103,3 +103,31 @@
   background: rgba(0, 0, 0, 0.5);
   z-index: 1000;
 }
+
+@media screen and (max-width: 768px) {
+  .menu-container {
+      flex-direction: column;
+  }
+  .menu-sidebar {
+      width: 87%;
+      margin-right: 0;
+      margin-bottom: 20px;
+      display: flex;    
+      align-items: center;
+      gap: 15px; 
+      justify-content: center;
+  }
+
+  .menu-sidebar h3{
+    display: none;
+  }
+
+  .menu-sidebar div{
+    font-size: 20px;
+  }
+  .menu-items {
+      width: 95%;
+      height: 100%;
+  }
+
+}

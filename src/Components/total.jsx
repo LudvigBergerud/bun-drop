@@ -36,10 +36,12 @@ const Total = ({ openPayment }) => {
 
   return (
     <div className="total-container">
+      <div className="total-text">
       <h2>TOTAL</h2>
       <p>Ordered Items: {totalItemsCost}KR</p>
       <p>Delivery: {DELIVERY_COST}KR</p>
       <p>Total Sum: {totalCost}KR</p>
+      </div>
       <button onClick={openPayment} disabled={!isFormValid} className="pay-now-button">PAY NOW</button>
       <div className="delivery-container">
         <h3>DELIVERY</h3>
