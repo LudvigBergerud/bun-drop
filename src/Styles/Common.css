@@ -100,7 +100,7 @@ h2 {
 
 @media screen and (max-width: 850px) {
     .modal-content {
-        width: 90%;
+        width: 100%;
         max-width: 90%;
         padding: 0.5rem;
     }

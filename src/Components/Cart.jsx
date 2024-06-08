@@ -43,9 +43,10 @@ const Cart = () => {
   };
 
   return (
-    <div className="cart-page-container">
-      <div className="cart-container">
-        <h2>CART</h2>
+    <div className="cart-page-background">
+      <div className="cart-page-container">
+        <div className="cart-container">
+          <h2>CART</h2>
           <div className="cart-item-container">
             {cartItems.length === 0 ? (
               <p>Your cart is empty</p>
@@ -61,8 +62,8 @@ const Cart = () => {
                       </div>
                       <img src={item.image} alt={item.productName} />
                       <div className='item-text'>
-                      <span>{item.productName}</span>
-                      <span>{item.price}KR/Item</span>
+                        <span>{item.productName}</span>
+                        <span>{item.price}KR/Item</span>
                       </div>
                     </div>
                     <button className="cart-item-delete" onClick={() => removeFromCart(item.productId)}>
@@ -75,7 +76,7 @@ const Cart = () => {
               </ul>
             )}
           </div>
-      </div>
+        </div>
       <Total openPayment={() => setIsPaymentVisible(true)} />
       {isPaymentVisible && (
         <div className="overlay">
@@ -99,9 +100,11 @@ const Cart = () => {
           </div>
         </div>
       )}
+      </div>
     </div>
   );
 };
 
 export default Cart;
+
 

@@ -84,10 +84,11 @@ input[type="tel"] {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: inherit;
+    width: 450px;
     height: 230px;
     padding: auto;
     border-radius: 0 0 24px 24px;
+    margin-right: 40px; 
   }
 
   .total-container button {

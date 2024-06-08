@@ -5,16 +5,30 @@ import MenuItem from './MenuItem';
 import useFetch from '../Hooks/useFetch';
 
 const Menu = () => {
-  const {data: menuItems, loading, error} = useFetch("http://localhost:3000/menu")
-  const [selectedCategory, setSelectedCategory] = useState('ALL');
+  const { data: menuItems, loading, error } = useFetch("http://localhost:3000/menu");
+  const [selectedCategories, setSelectedCategories] = useState(['ALL']);
   const [selectedItem, setSelectedItem] = useState(null);
 
-  const categories = ['ALL', 'Burgers', 'Sides', 'Dips', 'Desserts', 'Drinks'];
+  const categories = ['ALL', 'Burgers', 'sides', 'dips', 'desserts', 'drinks'];
 
-  const filteredItems =
-    selectedCategory === 'ALL'
-      ? menuItems
-      : menuItems.filter((item) => item.category.toLowerCase() === selectedCategory.toLowerCase());
+  const filteredItems = selectedCategories.includes('ALL')
+    ? menuItems
+    : menuItems.filter((item) => selectedCategories.includes(item.category));
+
+  const handleCategoryClick = (category) => {
+    if (category === 'ALL') {
+      setSelectedCategories(['ALL']);
+    } else {
+      setSelectedCategories((prevCategories) => {
+        if (prevCategories.includes(category)) {
+          const newCategories = prevCategories.filter((cat) => cat !== category);
+          return newCategories.length === 0 ? ['ALL'] : newCategories;
+        } else {
+          return prevCategories.filter((cat) => cat !== 'ALL').concat(category);
+        }
+      });
+    }
+  };
 
   const handleItemClick = (item) => {
     setSelectedItem(item);
@@ -23,7 +37,7 @@ const Menu = () => {
 
   const handleBackClick = () => {
     setSelectedItem(null);
-    document.body.style.overflow = ''; 
+    document.body.style.overflow = '';
   };
 
   return (
@@ -31,7 +45,11 @@ const Menu = () => {
       <div className="menu-sidebar">
         <h3>MENU</h3>
         {categories.map((category) => (
-          <div key={category} onClick={() => setSelectedCategory(category)}>
+          <div
+            key={category}
+            onClick={() => handleCategoryClick(category)}
+            className={selectedCategories.includes(category) ? 'selected' : ''}
+          >
             {category.toUpperCase()}
           </div>
         ))}
@@ -57,4 +75,3 @@ const Menu = () => {
 };
 
 export default Menu;
-
