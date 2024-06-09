@@ -1,0 +1,293 @@
+{
+  "menu": [
+    {
+      "id": "1",
+      "title": "Apple Slices",
+      "price": "20",
+      "description": "Fresh pre-cut slices of Swedish apples",
+      "category": "sides",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/Apple.png?raw=true"
+    },
+    {
+      "id": "2",
+      "title": "Apple Juice",
+      "price": "25",
+      "description": "Refreshing apple juice sourced from Swedish apples",
+      "category": "drinks",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/Applejuice.jpg?raw=true"
+    },
+    {
+      "id": "3",
+      "title": "Barbeque Dip",
+      "price": "15",
+      "description": "Smoky and tangy barbeque dip",
+      "category": "dips",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/BarbequeDip.png?raw=true"
+    },
+    {
+      "id": "4",
+      "title": "Bearnaise Dip",
+      "price": "15",
+      "description": "Extremly tasty dip for every meal",
+      "category": "dips",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/BeaDip.png?raw=true"
+    },
+    {
+      "id": "5",
+      "title": "BIG Burger",
+      "price": "200",
+      "description": "Our biggest burger around. Contains 400g of Swedish produced Angus meat",
+      "category": "Burgers",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/BIGBurger.jpg?raw=true"
+    },
+    {
+      "id": "6",
+      "title": "Cheddar Dip",
+      "price": "15",
+      "description": "Rich and creamy cheddar cheese dip",
+      "category": "dips",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/Cheddardip.png?raw=true"
+    },
+    {
+      "id": "7",
+      "title": "Chicken Wings",
+      "price": "35",
+      "description": "Spicy and crispy chicken wings",
+      "category": "sides",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/ChickenWing.png?raw=true"
+    },
+    {
+      "id": "8",
+      "title": "Chili Cheese",
+      "price": "30",
+      "description": "Spicy chili cheese bites",
+      "category": "sides",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/Chilicheese.png?raw=true"
+    },
+    {
+      "id": "9",
+      "title": "Coca Cola",
+      "price": "20",
+      "description": "Refreshing Coca Cola",
+      "category": "drinks",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/Cola.jpg?raw=true"
+    },
+    {
+      "id": "10",
+      "title": "Double Decker Burger",
+      "price": "60",
+      "description": "Double patty burger with extra cheese and special sauce",
+      "category": "Burgers",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/Dubbledecker.jpg?raw=true"
+    },
+    {
+      "id": "11",
+      "title": "French Fries",
+      "price": "15",
+      "description": "Crispy golden French fries",
+      "category": "sides",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/Fries.jpg?raw=true"
+    },
+    {
+      "id": "12",
+      "title": "Happy Burger",
+      "price": "45",
+      "description": "Classic burger with a special happy sauce",
+      "category": "Burgers",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/HappyBurger.png?raw=true"
+    },
+    {
+      "id": "13",
+      "title": "Ice Cream Chocolate",
+      "price": "25",
+      "description": "Creamy chocolate ice cream",
+      "category": "desserts",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/IcecreamCho.png?raw=true"
+    },
+    {
+      "id": "14",
+      "title": "Ice Cream Strawberry",
+      "price": "25",
+      "description": "Delicious strawberry ice cream",
+      "category": "desserts",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/IcecreamStra.png?raw=true"
+    },
+    {
+      "id": "15",
+      "title": "Ice Cream Caramel",
+      "price": "25",
+      "description": "Smooth caramel ice cream",
+      "category": "desserts",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/IcreamCar.png?raw=true"
+    },
+    {
+      "id": "16",
+      "title": "Fresh Lettuce Burger",
+      "price": "45",
+      "description": "Healthy burger with fresh lettuce instead of a bun",
+      "category": "Burgers",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/LettuceBurger.png?raw=true"
+    },
+    {
+      "id": "17",
+      "title": "Milkshake Caramel",
+      "price": "30",
+      "description": "Creamy caramel milkshake",
+      "category": "desserts",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/MilkshakeCar.png?raw=true"
+    },
+    {
+      "id": "18",
+      "title": "Milkshake Chocolate",
+      "price": "30",
+      "description": "Rich chocolate milkshake",
+      "category": "desserts",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/MilkshakeCho.png?raw=true"
+    },
+    {
+      "id": "19",
+      "title": "Milkshake Strawberry",
+      "price": "30",
+      "description": "Refreshing strawberry milkshake",
+      "category": "desserts",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/MilkshakeStra.png?raw=true"
+    },
+    {
+      "id": "20",
+      "title": "Onion Rings",
+      "price": "20",
+      "description": "Crispy fried onion rings",
+      "category": "sides",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/Onionring.png?raw=true"
+    },
+    {
+      "id": "21",
+      "title": "Orange Juice",
+      "price": "25",
+      "description": "Freshly squeezed orange juice",
+      "category": "drinks",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/Orangejuice.jpg?raw=true"
+    },
+    {
+      "id": "22",
+      "title": "Sprite",
+      "price": "20",
+      "description": "Lemon-lime flavored soft drink",
+      "category": "drinks",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/Sprite.jpg?raw=true"
+    },
+    {
+      "id": "23",
+      "title": "Sweet'N'Sour Dip",
+      "price": "15",
+      "description": "Tangy and sweet sauce",
+      "category": "dips",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/SweetNsourDip.png?raw=true"
+    },
+    {
+      "id": "24",
+      "title": "Ramlösa Water",
+      "price": "20",
+      "description": "Refreshing sparkling water",
+      "category": "drinks",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/Water.png?raw=true"
+    },
+    {
+      "id": "25",
+      "title": "Extra Bacon Burger",
+      "price": "55",
+      "description": "Juicy burger with extra crispy bacon",
+      "category": "Burgers",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/XBaconBurger.png?raw=true"
+    },
+    {
+      "id": "26",
+      "title": "Extra Onion Burger",
+      "price": "50",
+      "description": "Delicious burger loaded with extra onions",
+      "category": "Burgers",
+      "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/XOninoBurger.png?raw=true"
+    }
+  ],
+  "Users": [
+    {
+      "id": "43af"
+    },
+    {
+      "id": "9c1d",
+      "username": "user",
+      "password": "password",
+      "cart": [
+        {
+          "productId": "10",
+          "productName": "Double Decker Burger",
+          "quantity": 1,
+          "price": "60",
+          "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/Dubbledecker.jpg?raw=true"
+        },
+        {
+          "productId": "11",
+          "productName": "French Fries",
+          "quantity": 1,
+          "price": "15",
+          "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/Fries.jpg?raw=true"
+        },
+        {
+          "productId": "22",
+          "productName": "Sprite",
+          "quantity": 1,
+          "price": "20",
+          "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/Sprite.jpg?raw=true"
+        }
+      ],
+      "favorites": [
+        {
+          "id": "5",
+          "title": "BIG Burger",
+          "price": "200",
+          "description": "Our biggest burger around. Contains 400g of Swedish produced Angus meat",
+          "category": "Burgers",
+          "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/BIGBurger.jpg?raw=true"
+        },
+        {
+          "id": "11",
+          "title": "French Fries",
+          "price": "15",
+          "description": "Crispy golden French fries",
+          "category": "sides",
+          "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/Fries.jpg?raw=true"
+        }
+      ],
+      "previousPurchases": [
+        {
+          "orderId": "1717842213836",
+          "date": "2024-06-08T10:23:33",
+          "totalAmount": 405,
+          "items": [
+            {
+              "productId": "5",
+              "productName": "BIG Burger",
+              "quantity": 1,
+              "price": "200",
+              "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/BIGBurger.jpg?raw=true"
+            },
+            {
+              "productId": "11",
+              "productName": "French Fries",
+              "quantity": 1,
+              "price": "15",
+              "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/Fries.jpg?raw=true"
+            },
+            {
+              "productId": "9",
+              "productName": "Coca Cola",
+              "quantity": 1,
+              "price": "20",
+              "image": "https://github.com/LudvigBergerud/bun-drop/blob/main/public/Images/Cola.jpg?raw=true"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

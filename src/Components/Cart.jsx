@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useUserCart } from '../Context/UserCartContext';
-import Total from './total';
+import Total from './Total';
 import Payment from './Payment';
 import OrderConfirmation from './OrderConfirmation';
 import '../Styles/Cart.css';

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useUserCart } from '../Context/UserCartContext';
-import '../Styles/total.css';
+import '../Styles/Total.css';
 import '../Styles/Common.css';
 
 const Total = ({ openPayment }) => {

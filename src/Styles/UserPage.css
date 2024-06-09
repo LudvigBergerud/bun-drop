@@ -24,11 +24,11 @@
 
 .close-button {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: 16px;
+  right: 16px;
   background: none;
   border: none;
-  font-size: 1.5rem;
+  font-size: 24px;
   cursor: pointer;
 }
 
@@ -36,8 +36,8 @@
   background: #d9534f;
   color: #000000;
   border: none;
-  padding: 0.5rem 1rem;
-  margin-top: 1rem;
+  padding: 8px 16px;
+  margin-top: 16px;
   cursor: pointer;
   border-radius: 4px;
 }
@@ -50,7 +50,7 @@
 .previous-orders {
   height: 175px;
   overflow-y: auto;
-  margin-top: 1rem;
+  margin-top: 16px;
 }
 
 .favorites ul {
@@ -62,9 +62,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 0.5rem;
+  margin-bottom: 8px;
   border-bottom: 1px solid #ddd; 
-  padding-bottom: 0.5rem;
+  padding-bottom: 8px;
 }
 
 .favorites .item-details {
@@ -75,17 +75,17 @@
 .favorites img {
   width: 40px;
   height: auto;
-  margin-right: 0.5rem;
+  margin-right: 8px;
 }
 
 .favorites span {
-  margin-right: 0.5rem;
+  margin-right: 8px;
 }
 
 .favorites button {
   background-color: white;
   border: none;
-  padding: 0.3rem;
+  padding: 5px;
   cursor: pointer;
 }
 
@@ -100,7 +100,7 @@
 }
 
 .previous-orders li {
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
 }
 
 .previous-orders li > div {
@@ -109,10 +109,10 @@
 }
 
 .previous-orders li > ul {
-  padding-left: 1rem;
+  padding-left: 16px;
 }
 
 .previous-orders span {
   display: block;
-  margin-bottom: 0.3rem;
+  margin-bottom: 5px;
 }
