@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bun-drop/static/css/main.a47ffc08.css",
-    "main.js": "/bun-drop/static/js/main.76ca137a.js",
+    "main.css": "/bun-drop/static/css/main.dbedef6c.css",
+    "main.js": "/bun-drop/static/js/main.c7c68d19.js",
     "static/js/453.5d80e4b5.chunk.js": "/bun-drop/static/js/453.5d80e4b5.chunk.js",
     "index.html": "/bun-drop/index.html",
-    "main.a47ffc08.css.map": "/bun-drop/static/css/main.a47ffc08.css.map",
-    "main.76ca137a.js.map": "/bun-drop/static/js/main.76ca137a.js.map",
+    "main.dbedef6c.css.map": "/bun-drop/static/css/main.dbedef6c.css.map",
+    "main.c7c68d19.js.map": "/bun-drop/static/js/main.c7c68d19.js.map",
     "453.5d80e4b5.chunk.js.map": "/bun-drop/static/js/453.5d80e4b5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a47ffc08.css",
-    "static/js/main.76ca137a.js"
+    "static/css/main.dbedef6c.css",
+    "static/js/main.c7c68d19.js"
   ]
 }
