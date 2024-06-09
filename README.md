@@ -4,19 +4,19 @@ Complete step one and two in order to start the project.
 
 ## 1. Starting Json server
 
-\```
+```
   cd BunDrop
   cd bun-drop
   json-server --watch bun-drop-db.json
-\```
+```
 
 ## 2. Starting React App
 
-\```
+```
   cd BunDrop
   cd bun-drop
   npm start
-\```
+```
 
 # Project Analysis 
 
